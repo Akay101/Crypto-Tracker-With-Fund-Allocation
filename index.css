@@ -28,7 +28,7 @@ body{
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(74, 74, 74);
-    border-radius: 10%;
+    border-radius: 5px;
     color: rgb(255, 255, 255);
   }
   
@@ -538,4 +538,17 @@ body{
     margin: 2em 0em 0em 3em;
   }
   
+}
+.FA{
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #ff0080, #ff8c00);
+  color: white;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FA:hover{
+  background: linear-gradient(45deg, #D10363, #FF9A00);
+
 }
